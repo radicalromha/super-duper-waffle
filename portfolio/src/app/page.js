@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { AiFillLinkedin } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -29,9 +30,24 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div>
-            <h2>Eskinder Fitsum</h2>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+              Eskinder Fitsum
+            </h2>
+            <h3 className="texxt-2xl py-2">Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
+              {" "}
+              A 4th year Computer Science student at Illinois Institure of
+              Techonology. My interests are Artificial Intelligence, Machine
+              Learning, Natural Language Processing, Software Security, Runtime
+              Systems, Language Extensibility, Computer Architecture. I also
+              love to collaborate on projects if you do as well reach out.
+            </p>
           </div>
+          <div>
+            <AiFillLinkedin />
+          </div>
+          <div></div>
         </section>
       </main>
     </div>
