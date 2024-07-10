@@ -44,7 +44,7 @@ export default function Home() {
               love to collaborate on projects if you do as well reach out.
             </p>
           </div>
-          <div>
+          <div className="text-5xl flex justify-center gap-16 py-3 texy-gray-60">
             <AiFillLinkedin />
           </div>
           <div></div>
