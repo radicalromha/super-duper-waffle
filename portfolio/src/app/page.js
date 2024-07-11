@@ -2,6 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
+import deveskinder from "./file.png";
 
 export default function Home() {
   return (
@@ -44,10 +45,12 @@ export default function Home() {
               love to collaborate on projects if you do as well reach out.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 texy-gray-60">
+          <div className="text-5xl flex justify-center gap-16 py-3 texy-gray-600">
             <AiFillLinkedin />
           </div>
-          <div></div>
+          <div>
+            <deveskinder src={deveskinder} layout="fill" />
+          </div>
         </section>
       </main>
     </div>
