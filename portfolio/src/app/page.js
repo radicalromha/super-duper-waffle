@@ -62,7 +62,17 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">
               {" "}
               i started learning computer science concepts in 2018 and have been
-              ntranced ever since.re is some of the work ive done
+              entranced ever since. here is some of the work ive done.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">work ive done</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              {" "}
+              i started learning computer science concepts in 2018 and have been
+              entranced ever since. here is some of the work ive done.
             </p>
           </div>
         </section>
