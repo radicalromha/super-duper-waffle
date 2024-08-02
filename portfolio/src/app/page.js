@@ -95,6 +95,15 @@ export default function Home() {
           <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
             Save Changes
           </button>
+          <button class="transition duration-150 ease-in-out ...">
+            Button A
+          </button>
+          <button class="transition duration-300 ease-in-out ...">
+            Button B
+          </button>
+          <button class="transition duration-700 ease-in-out ...">
+            Button C
+          </button>
         </section>
       </main>
     </div>
