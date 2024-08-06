@@ -104,6 +104,9 @@ export default function Home() {
           <button class="transition duration-700 ease-in-out ...">
             Button C
           </button>
+          <button class="transition duration-700 ease-in-out ...">
+            Button C
+          </button>
         </section>
       </main>
     </div>
