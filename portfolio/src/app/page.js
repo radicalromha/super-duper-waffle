@@ -15,8 +15,8 @@ export default function Home() {
 
       <main className="bg-white px-10">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-league-spartan">developedbyeskinder</h1>
+          <nav className="py-10 mb-12 flex justify-between items-center">
+            <h1 className="text-xl font-league-spartan">DevelopedByEskinder</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
@@ -40,14 +40,14 @@ export default function Home() {
               A 4th year Computer Science student at Illinois Institute of
               Technology. My interests are Artificial Intelligence, Machine
               Learning, Natural Language Processing, Software Security, Runtime
-              Systems, Language Extensibility, Computer Architecture. I also
-              love to collaborate on projects if you do as well reach out.
+              Systems, Language Extensibility, and Computer Architecture. I also
+              love to collaborate on projects; if you do as well, reach out.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillLinkedin />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-15 overflow-hidden">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
             <Image
               src={deveskinder}
               alt="Eskinder Fitsum"
@@ -58,55 +58,51 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">work ive done</h3>
+            <h3 className="text-3xl py-1">Work I've Done</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              {" "}
-              i started learning computer science concepts in 2018 and have been
-              entranced ever since. here is some of the work ive done.
+              I started learning computer science concepts in 2018 and have been
+              entranced ever since. Here is some of the work I've done.
             </p>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">work ive done</h3>
+            <h3 className="text-3xl py-1">Work I've Done</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              {" "}
-              i started learning computer science concepts in 2018 and have been
-              entranced ever since. here is some of the work ive done.
+              I started learning computer science concepts in 2018 and have been
+              entranced ever since. Here is some of the work I've done.
             </p>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">work ive done</h3>
+            <h3 className="text-3xl py-1">Work I've Done</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              {" "}
-              i started learning computer science concepts in 2018 and have been
-              entranced ever since. here is some of the work ive done.
+              I started learning computer science concepts in 2018 and have been
+              entranced ever since. Here is some of the work I've done.
             </p>
           </div>
         </section>
-        <section>
-          <div class="text-5xl font-extrabold ...">
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-              Hello world
+        <section className="text-center mt-10">
+          <div className="text-5xl font-extrabold mb-4">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+              Hello World
             </span>
           </div>
-          <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
-            Save Changes
-          </button>
-          <button class="transition duration-150 ease-in-out ...">
-            Button A
-          </button>
-          <button class="transition duration-300 ease-in-out ...">
-            Button B
-          </button>
-          <button class="transition duration-700 ease-in-out ...">
-            Button C
-          </button>
-          <button class="transition duration-700 ease-in-out ...">
-            Button C
-          </button>
+          <div className="space-x-4">
+            <button className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 px-4 py-2 rounded-md text-white">
+              Save Changes
+            </button>
+            <button className="transition duration-150 ease-in-out px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300">
+              Button A
+            </button>
+            <button className="transition duration-300 ease-in-out px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300">
+              Button B
+            </button>
+            <button className="transition duration-700 ease-in-out px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300">
+              Button C
+            </button>
+          </div>
         </section>
       </main>
     </div>
