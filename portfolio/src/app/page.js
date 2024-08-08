@@ -3,6 +3,9 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 import deveskinder from "./file.png";
+import Git1 from "./git1.png";
+import Git2 from "./git2.png";
+import Git3 from "./git3.png";
 
 export default function Home() {
   return (
@@ -102,6 +105,11 @@ export default function Home() {
             <button className="transition duration-700 ease-in-out px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300">
               Button C
             </button>
+          </div>
+          <div class="columns-3xs ...">
+            <img class="w-full aspect-video" src={Git1} />
+            <img class="w-full aspect-square" src={Git2} />
+            <img class="w-full aspect-video" src={Git3} />
           </div>
         </section>
       </main>
